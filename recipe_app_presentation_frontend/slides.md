@@ -1,10 +1,10 @@
 ---
 # Global deck settings
 theme: default
-title: Your Presentation Title
+title: "Recipe App Showcase — Ocean Professional"
 info: |
-  Professional presentation template with dark theme
-  20 slides with modern components
+  A visually engaging slide deck highlighting the Recipe App:
+  features, architecture, design system, and roadmap.
 class: text-left
 mdc: true
 transition: slide-left
@@ -15,94 +15,41 @@ css: |
   @import "./style.css";
 ---
 
-# PROJECT TITLE
-<div class="title-slide with-hero-glow">
+# RECIPE APP SHOWCASE
+<div class="title-slide with-hero-glow" style="background: radial-gradient(1200px 600px at 70% -20%, rgba(37,99,235,0.18) 0%, rgba(37,99,235,0.0) 60%), linear-gradient(180deg, rgba(37,99,235,0.08) 0%, rgba(245,158,11,0.06) 100%); border-radius: 24px;">
   <div class="hero-copy">
-    <h2 class="text-hero">Transform Your Business with Innovation</h2>
-    <p class="subtitle text-md">A comprehensive solution for modern enterprises</p>
-    <div class="subtitle text-xs">Presenter Name • Date • contact@example.com</div>
+    <h2 class="text-hero" style="background: linear-gradient(135deg, #2563EB 0%, #8B9FFB 60%); -webkit-background-clip: text; color: transparent;">Deliciously Simple. Beautifully Designed.</h2>
+    <p class="subtitle text-md">Discover, cook, and share recipes with a modern, intuitive experience.</p>
+    <div class="subtitle text-xs">Presenter: Your Name • Date • hello@example.com</div>
     <div class="hero-ctas mt-2">
-      <button class="btn-primary">Get Started</button>
-      <button class="btn-secondary">Learn More</button>
+      <button class="btn-primary" style="background:#2563EB;color:#0B1220;">Preview Live</button>
+      <button class="btn-secondary" style="border-color:#2563EB;">View Docs</button>
     </div>
   </div>
 </div>
 
 ---
 
-# The Challenge
+# Introduction
 
-<div class="problem-grid">
-  <div class="problem-card">
-    <div class="eyebrow">Current State</div>
-    <h3 class="feature-title">Market Inefficiencies</h3>
+<div class="grid-2">
+  <div class="card">
+    <div class="eyebrow">What is it?</div>
+    <h3 class="feature-title">A Modern Recipe Companion</h3>
     <ul class="points-clean">
-      <li>Complex processes and workflows</li>
-      <li>Disconnected systems and data silos</li>
-      <li>High operational costs</li>
+      <li>Browse curated recipes with filters for diet, prep time, and difficulty</li>
+      <li>Create personal collections and favorites</li>
+      <li>Step-by-step cooking mode for an effortless kitchen flow</li>
     </ul>
   </div>
-
-  <div class="problem-card">
-    <div class="eyebrow">Industry Trends</div>
-    <h3 class="feature-title">Rapid Digital Evolution</h3>
+  <div class="card">
+    <div class="eyebrow">Why now?</div>
+    <h3 class="feature-title">Ocean Professional Style</h3>
     <ul class="points-clean">
-      <li>Accelerating technology adoption</li>
-      <li>Changing customer expectations</li>
-      <li>New competitive pressures</li>
+      <li>Primary #2563EB (blue) for calls-to-action</li>
+      <li>Secondary #F59E0B (amber) for highlights</li>
+      <li>Clean layouts with subtle gradients and rounded corners</li>
     </ul>
-  </div>
-
-  <div class="problem-card">
-    <div class="eyebrow">Gap Analysis</div>
-    <h3 class="feature-title">Missing Capabilities</h3>
-    <ul class="points-clean">
-      <li>Limited automation tools</li>
-      <li>Insufficient analytics</li>
-      <li>Poor integration options</li>
-      <li>Lack of scalability</li>
-    </ul>
-  </div>
-</div>
-
----
-
-# Our Solution
-
-A comprehensive platform that addresses key business challenges
-
-<div class="stats-band mt-2">
-  <div class="stat-card">
-    <div class="stat-number">10x</div>
-    <div class="stat-label">Faster Processing</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">50%</div>
-    <div class="stat-label">Cost Reduction</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">99.9%</div>
-    <div class="stat-label">Uptime</div>
-  </div>
-</div>
-
-<div class="card-grid three mt-2">
-  <div class="feature-card">
-    <div class="eyebrow">Core</div>
-    <h3 class="feature-title">Intelligent Automation</h3>
-    <p class="muted">Streamline workflows with AI-powered processes</p>
-  </div>
-
-  <div class="feature-card">
-    <div class="eyebrow">Integration</div>
-    <h3 class="feature-title">Seamless Connectivity</h3>
-    <p class="muted">Connect all your tools and systems effortlessly</p>
-  </div>
-
-  <div class="feature-card">
-    <div class="eyebrow">Analytics</div>
-    <h3 class="feature-title">Real-time Insights</h3>
-    <p class="muted">Make data-driven decisions with powerful analytics</p>
   </div>
 </div>
 
@@ -110,31 +57,39 @@ A comprehensive platform that addresses key business challenges
 
 # Key Features
 
-<div class="split-cols mt-2">
-  <div class="left">
-    <div class="feature-card">
-      <h3 class="feature-title">Smart Dashboard</h3>
-      <p class="muted">Centralized control and monitoring</p>
-    </div>
-    <div class="feature-card">
-      <h3 class="feature-title">Advanced Analytics</h3>
-      <p class="muted">Deep insights and predictive modeling</p>
-    </div>
-    <div class="feature-card">
-      <h3 class="feature-title">Workflow Automation</h3>
-      <p class="muted">Streamline repetitive tasks</p>
-    </div>
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Discovery</div>
+    <h3 class="feature-title">Smart Search & Filters</h3>
+    <ul class="points-clean">
+      <li>Ingredient- and tag-based search</li>
+      <li>Dietary filters (vegan, keto, gluten-free)</li>
+      <li>Dynamic sorting by rating or prep time</li>
+    </ul>
   </div>
-  <div class="right">
-    <div class="glass-frame tall">
-      <div class="placeholder">Product Screenshot / Dashboard UI</div>
-    </div>
+  <div class="feature-card">
+    <div class="eyebrow">Guided</div>
+    <h3 class="feature-title">Step-by-Step Mode</h3>
+    <ul class="points-clean">
+      <li>Timer integration and voice hints</li>
+      <li>Clear visual steps and progress</li>
+      <li>Auto-scaled ingredient quantities</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Social</div>
+    <h3 class="feature-title">Collections & Sharing</h3>
+    <ul class="points-clean">
+      <li>Create themed collections</li>
+      <li>Share via link or social platforms</li>
+      <li>Comment and rate recipes</li>
+    </ul>
   </div>
 </div>
 
 ---
 
-# Architecture Overview
+# Architecture / Flow
 
 ```mermaid
 %%{init: {
@@ -145,420 +100,198 @@ A comprehensive platform that addresses key business challenges
     "lineColor": "#6E7681"
   }
 }}%%
-
 flowchart TD
-    UI[🖥️ User Interface] --> API[⚙️ API Gateway]
-    API --> Auth[🔐 Authentication]
-    API --> Core[💼 Core Services]
-    Core --> DB[(📊 Database)]
-    Core --> Cache[(⚡ Cache)]
-    Core --> Queue[📬 Message Queue]
-    Queue --> Workers[🤖 Background Workers]
-    
-    style UI fill:#1C1A2B,stroke:#6B7FEB
-    style API fill:#1C1A2B,stroke:#6B7FEB
-    style Core fill:#1C1A2B,stroke:#6B7FEB
-    style DB fill:#2B2931,stroke:#40D79E
-    style Cache fill:#2B2931,stroke:#FFC75A
+    A[👩‍🍳 User] --> B[🖥️ Frontend (Slidev/Vite)]
+    B --> C[🌐 API Gateway]
+    C --> D[🔐 Auth Service]
+    C --> E[🍲 Recipe Service]
+    C --> F[⭐ Ratings/Comments]
+    E --> G[(📄 Recipe DB)]
+    F --> H[(💬 Social/Reviews DB)]
+
+    style B fill:#0F172A,stroke:#2563EB,stroke-width:2px
+    style C fill:#0F172A,stroke:#2563EB,stroke-width:2px
+    style D fill:#0F172A,stroke:#8B9FFB
+    style E fill:#0F172A,stroke:#2563EB
+    style F fill:#0F172A,stroke:#F59E0B
+    style G fill:#111827,stroke:#2563EB
+    style H fill:#111827,stroke:#F59E0B
 ```
 
----
-
-# Use Cases
-
-<div class="card-grid three mt-2">
-  <div class="feature-card"><h3 class="feature-title">Enterprise Resource Planning</h3><p class="muted">Unified business management</p></div>
-  <div class="feature-card"><h3 class="feature-title">Customer Relationship Management</h3><p class="muted">360-degree customer view</p></div>
-  <div class="feature-card"><h3 class="feature-title">Supply Chain Optimization</h3><p class="muted">End-to-end visibility</p></div>
-  <div class="feature-card"><h3 class="feature-title">Financial Analytics</h3><p class="muted">Real-time financial insights</p></div>
-  <div class="feature-card"><h3 class="feature-title">HR Management</h3><p class="muted">Streamlined HR processes</p></div>
-  <div class="feature-card"><h3 class="feature-title">Project Management</h3><p class="muted">Collaborative project tracking</p></div>
-</div>
-
----
-
-# Market Opportunity
-
-<div class="split-cols mt-2">
-  <div class="left">
-    <div class="feature-card">
-      <div class="eyebrow">TAM</div>
-      <h3 class="feature-title">Total Addressable Market</h3>
-      <p class="muted">$100B+ globally</p>
-    </div>
-    <div class="feature-card">
-      <div class="eyebrow">Growth</div>
-      <h3 class="feature-title">Market Expansion</h3>
-      <p class="muted">25% CAGR expected</p>
-    </div>
-    <div class="feature-card">
-      <div class="eyebrow">Segments</div>
-      <ul class="points-clean">
-        <li>Enterprise (500+ employees)</li>
-        <li>Mid-market (50-500)</li>
-        <li>SMB (under 50)</li>
-      </ul>
-    </div>
-  </div>
-  <div class="right">
-    <div class="glass-frame">
-      <div class="placeholder">Market Size Chart</div>
-    </div>
-  </div>
-</div>
-
----
-
-# Competitive Landscape
-
-<div class="glass-frame wide mt-2">
-  <div class="placeholder">Competitive Positioning Matrix</div>
-</div>
-
-<div class="card-grid three mt-2">
-  <div class="feature-card">
-    <h3 class="feature-title">Our Advantages</h3>
-    <ul class="points-clean">
-      <li>Superior technology</li>
-      <li>Better user experience</li>
-      <li>Competitive pricing</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <h3 class="feature-title">Market Position</h3>
-    <ul class="points-clean">
-      <li>Leader in innovation</li>
-      <li>Strong brand recognition</li>
-      <li>Growing market share</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <h3 class="feature-title">Differentiators</h3>
-    <ul class="points-clean">
-      <li>AI-powered features</li>
-      <li>Seamless integrations</li>
-      <li>Enterprise-grade security</li>
-    </ul>
-  </div>
-</div>
-
----
-
-# Implementation Timeline
-
-<div class="timeline mt-2">
-  <div class="time-node">
-    <div class="time-dot"></div>
-    <div class="time-card">
-      <div class="eyebrow">Phase 1: Q1 2025</div>
-      <h4>Foundation</h4>
-      <ul class="points-clean">
-        <li>System architecture design</li>
-        <li>Core infrastructure setup</li>
-        <li>Initial team formation</li>
-      </ul>
-    </div>
-  </div>
-  <div class="time-node">
-    <div class="time-dot"></div>
-    <div class="time-card">
-      <div class="eyebrow">Phase 2: Q2 2025</div>
-      <h4>Development</h4>
-      <ul class="points-clean">
-        <li>MVP development</li>
-        <li>Beta testing program</li>
-        <li>Initial customer feedback</li>
-      </ul>
-    </div>
-  </div>
-  <div class="time-node">
-    <div class="time-dot future"></div>
-    <div class="time-card">
-      <div class="eyebrow">Phase 3: Q3 2025</div>
-      <h4>Launch</h4>
-      <ul class="points-clean">
-        <li>Public release</li>
-        <li>Marketing campaign</li>
-        <li>Customer onboarding</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
----
-
-# Success Metrics
-
-<div class="stats-grid mt-2">
-  <div class="stat-card">
-    <div class="stat-number">1M+</div>
-    <div class="stat-label">Active Users</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">$50M</div>
-    <div class="stat-label">ARR</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">95%</div>
-    <div class="stat-label">Retention Rate</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">150</div>
-    <div class="stat-label">Enterprise Clients</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">4.8</div>
-    <div class="stat-label">Customer Rating</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">24/7</div>
-    <div class="stat-label">Support</div>
-  </div>
-</div>
-
----
-
-# Case Study
-
-<div class="split-cols mt-2">
-  <div class="left">
-    <div class="feature-card">
-      <div class="eyebrow">Client</div>
-      <h3 class="feature-title">Fortune 500 Company</h3>
-      <ul class="points-clean">
-        <li>10,000+ employees</li>
-        <li>Global operations</li>
-        <li>Complex IT infrastructure</li>
-      </ul>
-    </div>
-    <div class="feature-card">
-      <div class="eyebrow">Challenge</div>
-      <ul class="points-clean">
-        <li>Fragmented systems</li>
-        <li>Manual processes</li>
-        <li>Limited visibility</li>
-      </ul>
-    </div>
-  </div>
-  <div class="right">
-    <div class="feature-card glass">
-      <div class="eyebrow">Results</div>
-      <h3 class="feature-title">Transformation Achieved</h3>
-      <ul class="points-clean">
-        <li>60% efficiency improvement</li>
-        <li>$5M annual savings</li>
-        <li>Real-time insights</li>
-      </ul>
-    </div>
-    <div class="glass-frame short">
-      <div class="placeholder">ROI Chart</div>
-    </div>
-  </div>
-</div>
-
----
-
-# Pricing & Plans
-
-<div class="card-grid three mt-2">
-  <div class="feature-card">
-    <div class="eyebrow">Starter</div>
-    <h3 class="feature-title">$99/month</h3>
-    <ul class="points-clean">
-      <li>Up to 10 users</li>
-      <li>Basic features</li>
-      <li>Email support</li>
-      <li>5GB storage</li>
-    </ul>
-    <button class="btn-secondary mt-2">Choose Plan</button>
-  </div>
-  <div class="feature-card">
-    <div class="pill">Popular</div>
-    <h3 class="feature-title">$299/month</h3>
-    <ul class="points-clean">
-      <li>Up to 50 users</li>
-      <li>Advanced features</li>
-      <li>Priority support</li>
-      <li>100GB storage</li>
-      <li>API access</li>
-    </ul>
-    <button class="btn-primary mt-2">Choose Plan</button>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Enterprise</div>
-    <h3 class="feature-title">Custom</h3>
-    <ul class="points-clean">
-      <li>Unlimited users</li>
-      <li>All features</li>
-      <li>Dedicated support</li>
-      <li>Unlimited storage</li>
-      <li>Custom integrations</li>
-    </ul>
-    <button class="btn-secondary mt-2">Contact Sales</button>
-  </div>
-</div>
-
----
-
-# Technology Stack
-
-<div class="feature-grid mt-2">
-  <div class="feature-card">
-    <div class="eyebrow">Frontend</div>
-    <ul class="points-clean">
-      <li>React / Vue.js / Angular</li>
-      <li>TypeScript</li>
-      <li>Tailwind CSS</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Backend</div>
-    <ul class="points-clean">
-      <li>Node.js / Python / Go</li>
-      <li>GraphQL / REST APIs</li>
-      <li>Microservices</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Infrastructure</div>
-    <ul class="points-clean">
-      <li>AWS / Azure / GCP</li>
-      <li>Kubernetes</li>
-      <li>CI/CD pipelines</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Data</div>
-    <ul class="points-clean">
-      <li>PostgreSQL / MongoDB</li>
-      <li>Redis</li>
-      <li>Elasticsearch</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Security</div>
-    <ul class="points-clean">
-      <li>End-to-end encryption</li>
-      <li>OAuth 2.0 / SAML</li>
-      <li>SOC 2 compliant</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Monitoring</div>
-    <ul class="points-clean">
-      <li>Prometheus / Grafana</li>
-      <li>ELK Stack</li>
-      <li>APM tools</li>
-    </ul>
-  </div>
-</div>
-
----
-
-# Team
-
-<div class="card-grid four mt-2">
-  <div class="feature-card">
-    <h4 class="feature-title">CEO</h4>
-    <p class="muted small">20+ years experience</p>
-    <p class="muted small">Former Fortune 500 exec</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CTO</h4>
-    <p class="muted small">15+ years in tech</p>
-    <p class="muted small">Ex-FAANG engineer</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CPO</h4>
-    <p class="muted small">Product visionary</p>
-    <p class="muted small">3 successful exits</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CFO</h4>
-    <p class="muted small">Finance expert</p>
-    <p class="muted small">IPO experience</p>
-  </div>
-</div>
-
 <div class="card mt-2">
-  <h3>Advisory Board</h3>
+  <div class="eyebrow">Environment</div>
   <ul class="points-clean">
-    <li>Industry veterans from leading tech companies</li>
-    <li>Domain experts in enterprise software</li>
-    <li>Strategic advisors with deep market connections</li>
+    <li>Frontend powered by Vite/Slidev</li>
+    <li>Backend URLs configurable via VITE_BACKEND_URL, VITE_API_BASE</li>
+    <li>WebSocket/Realtime optionally via VITE_WS_URL</li>
   </ul>
 </div>
 
 ---
 
-# Customer Testimonials
+# Design System
 
-<div class="card-grid two mt-2">
-  <div class="feature-card glass">
-    <p class="muted">"This platform transformed our operations. We've seen incredible efficiency gains and cost savings."</p>
-    <div class="mt-2">
-      <strong>John Smith</strong><br>
-      <span class="text-xs muted">CTO, Tech Corp</span>
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Colors</div>
+    <ul class="points-clean">
+      <li>Primary: <strong style="color:#8B9FFB">#2563EB</strong></li>
+      <li>Secondary: <strong style="color:#F59E0B">#F59E0B</strong></li>
+      <li>Success: <strong style="color:#10B981">Emerald tone</strong></li>
+      <li>Error: <strong style="color:#EF4444">#EF4444</strong></li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Typography</div>
+    <ul class="points-clean">
+      <li>Headings: Inter — bold, tight tracking</li>
+      <li>Body: Inter — clear, readable</li>
+      <li>Code/labels: System mono</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Surfaces</div>
+    <ul class="points-clean">
+      <li>Rounded corners (12–16px)</li>
+      <li>Subtle shadows for elevation</li>
+      <li>Soft gradients for depth</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+# Sample Screens
+
+<div class="split-cols mt-2">
+  <div class="left">
+    <div class="glass-frame tall">
+      <div class="placeholder">Home / Discovery Screen (placeholder)</div>
+    </div>
+    <div class="glass-frame short mt-1">
+      <div class="placeholder">Recipe Card Grid (placeholder)</div>
     </div>
   </div>
-  <div class="feature-card glass">
-    <p class="muted">"The best investment we've made. ROI was evident within the first quarter."</p>
-    <div class="mt-2">
-      <strong>Jane Doe</strong><br>
-      <span class="text-xs muted">CEO, Innovation Inc</span>
+  <div class="right">
+    <div class="glass-frame tall">
+      <div class="placeholder">Recipe Details & Steps (placeholder)</div>
     </div>
   </div>
 </div>
 
 ---
 
-# Next Steps
+# Data Model Highlights
 
-<div class="cta-band">
+<div class="grid-2">
+  <div class="card">
+    <div class="eyebrow">Core Entities</div>
+    <ul class="points-clean">
+      <li>Recipe: id, title, description, images, tags</li>
+      <li>Ingredient: id, name, quantity, unit</li>
+      <li>Instruction: stepNumber, text, timer</li>
+      <li>User: id, profile, favorites, collections</li>
+      <li>Rating: userId, recipeId, score, comment</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="eyebrow">JSON Example</div>
+
+```json
+{
+  "id": "rcp_123",
+  "title": "Lemon Garlic Pasta",
+  "tags": ["quick", "vegetarian"],
+  "ingredients": [
+    { "name": "Spaghetti", "quantity": 200, "unit": "g" },
+    { "name": "Garlic", "quantity": 3, "unit": "cloves" }
+  ],
+  "steps": [
+    { "n": 1, "text": "Boil pasta", "timer": 600 },
+    { "n": 2, "text": "Saute garlic in oil" }
+  ]
+}
+```
+  </div>
+</div>
+
+---
+
+# Roadmap / Next Steps
+
+<div class="timeline horiz mt-2">
+  <div class="time-node">
+    <div class="time-card">
+      <div class="eyebrow">Q1</div>
+      <strong>Core MVP</strong>
+      <ul class="points-clean">
+        <li>Search & filter</li>
+        <li>Recipe details</li>
+        <li>Favorites</li>
+      </ul>
+    </div>
+  </div>
+  <div class="time-node">
+    <div class="time-card">
+      <div class="eyebrow">Q2</div>
+      <strong>Social & Sharing</strong>
+      <ul class="points-clean">
+        <li>Collections</li>
+        <li>Ratings & comments</li>
+        <li>Shareable links</li>
+      </ul>
+    </div>
+  </div>
+  <div class="time-node">
+    <div class="time-card">
+      <div class="eyebrow">Q3</div>
+      <strong>Guided Cooking</strong>
+      <ul class="points-clean">
+        <li>Voice hints</li>
+        <li>Timers</li>
+        <li>Ingredient scaling</li>
+      </ul>
+    </div>
+  </div>
+  <div class="time-node">
+    <div class="time-card">
+      <div class="eyebrow">Q4</div>
+      <strong>Pro Insights</strong>
+      <ul class="points-clean">
+        <li>Nutrition breakdown</li>
+        <li>Shopping lists</li>
+        <li>Meal planning</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+
+# Closing / Call to Action
+
+<div class="cta-band" style="border-color: rgba(37,99,235,0.35);">
   <div>
-    <div class="overline">Get Started Today</div>
-    <h2 class="text-hero">Ready to Transform Your Business?</h2>
-    <p class="muted">Join thousands of companies already using our platform</p>
+    <div class="overline" style="color:#F59E0B;">Your next favorite recipe awaits</div>
+    <h2 class="text-hero" style="background: linear-gradient(135deg, #F59E0B 0%, #FCD34D 100%); -webkit-background-clip: text; color: transparent;">
+      Cook More. Stress Less.
+    </h2>
+    <p class="muted">Try the Recipe App and level-up your home cooking experience.</p>
     <div class="cta-actions">
-      <button class="btn-primary">Start Free Trial</button>
-      <button class="btn-secondary">Schedule Demo</button>
+      <button class="btn-primary" style="background:#2563EB;color:#0B1220;">Get Started</button>
+      <button class="btn-secondary" style="border-color:#F59E0B;">Book a Demo</button>
     </div>
   </div>
   <div>
     <div class="card">
       <div class="eyebrow">Contact</div>
       <ul class="points-clean">
-        <li>Sales: sales@example.com</li>
-        <li>Support: support@example.com</li>
-        <li>Phone: 1-800-EXAMPLE</li>
+        <li>Website: recipe.example.com</li>
+        <li>Email: hello@example.com</li>
+        <li>Twitter/X: @recipeapp</li>
       </ul>
-      <div class="muted small mt-4">www.example.com</div>
+      <div class="muted small mt-4">Press S for presenter mode • Arrow keys to navigate</div>
     </div>
-  </div>
-</div>
-
----
-
-# Appendix
-
-<div class="card-grid two mt-2">
-  <div class="feature-card">
-    <h3 class="feature-title">Resources</h3>
-    <ul class="points-clean">
-      <li>Technical documentation</li>
-      <li>API reference</li>
-      <li>Video tutorials</li>
-      <li>Community forum</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <h3 class="feature-title">Legal</h3>
-    <ul class="points-clean">
-      <li>Terms of service</li>
-      <li>Privacy policy</li>
-      <li>Security compliance</li>
-      <li>SLA agreements</li>
-    </ul>
   </div>
 </div>
 
@@ -571,4 +304,4 @@ class: text-center
 
 Questions?
 
-<div class="mt-4 subtle">Press S for presenter mode • Press E to open editor • Use arrow keys to navigate</div>
+<div class="mt-4 subtle">Made with Slidev • Ocean Professional theme accents</div>
